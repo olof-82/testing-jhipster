@@ -1,0 +1,28 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "author",
+            "otherEntityName": "author",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "name"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "title",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "price",
+            "fieldType": "BigDecimal",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20150731174432",
+    "dto": "no",
+    "pagination": "no"
+}

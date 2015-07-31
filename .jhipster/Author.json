@@ -1,0 +1,27 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "book",
+            "otherEntityName": "book",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "author"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": []
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "birthday",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20150731174057",
+    "dto": "no",
+    "pagination": "no"
+}
